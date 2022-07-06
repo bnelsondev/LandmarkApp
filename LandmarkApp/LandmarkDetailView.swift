@@ -28,6 +28,7 @@ struct LandmarkDetailView: View {
                         Text(selectedLandmark.name)
                             .font(.largeTitle)
                             .foregroundColor(Color.green)
+                            .padding(.bottom, 1)
                         Text(selectedLandmark.city)
                     }
                     .padding()
